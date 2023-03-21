@@ -1,0 +1,64 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  
+
+}
+
+body {
+  background:linear-gradient(-45deg,rgb(193, 143, 235),rgb(255, 105, 130),rgb(235, 235, 23));
+  background-size:400% 400%;
+  animation: gradient 6s ease infinite;
+  height: 100vh;
+}
+
+h1 {
+  margin: 30px;
+  /* font-family: 'Lobster', cursive; */
+  font-family: 'Berkshire Swash', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 7rem;
+  color: #45ffec;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+
+@keyframes gradient {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+  
+  
+}
