@@ -21,3 +21,7 @@ else if (randomNumber1 === randomNumber2){
 document.querySelector(".reload").addEventListener("click",function(){
     window.location.reload();
 })
+
+//footer date
+const d = new Date().getFullYear();
+document.getElementById("demo").innerHTML = "&#169;" + d;
