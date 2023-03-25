@@ -27,7 +27,7 @@ h1 {
   color: #45ffec;
 }
 
-p {
+.players{
   font-size: 2rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
@@ -50,6 +50,11 @@ footer img {
   width: 50px;
 }
 
+/* footer date */
+.footer-date{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
 @keyframes gradient {
   0%{
